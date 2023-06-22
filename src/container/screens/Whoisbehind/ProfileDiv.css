@@ -1,0 +1,6 @@
+.ProfileDiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+}

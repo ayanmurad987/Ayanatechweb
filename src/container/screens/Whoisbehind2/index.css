@@ -1,0 +1,27 @@
+.WhoIsBehind2{
+    min-height: 80vh;
+    /* position: relative; */
+    background-repeat: no-repeat;
+    align-items: center;
+    /* top: 100px; */
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.contributerDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    /* align-self: center; */
+    min-height: 40px;
+    top: 200px;
+    position: relative;
+    width: 80vw;
+}
+@media (max-width:700px){
+    .WhoIsBehind2{
+        min-height: 30vh;
+    top: 100px;
+
+    }
+}

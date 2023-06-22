@@ -1,0 +1,41 @@
+.Button-comp{
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    z-index: 4;
+    min-width: 80px; 
+    max-width: 150px;
+    justify-content:space-between ;
+    align-items: center;
+    border-width: 0px;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background: linear-gradient(rgba(24, 32, 79, 0.4) 0%, rgba(24, 32, 79, 0.25) 100%);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 20px 40px, rgba(0, 0, 0, 0.2) 0px 0px 0px 0.5px inset;
+}
+.Button-comp:hover{
+    transform: skewY(0deg) translateY(-3px);
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.btn-txt{
+    font-size: 0.75rem;
+    margin: 0px;
+    color: aliceblue;
+    font-family: Arial Black;
+    
+}
+@media (max-width:600px) {
+    .Button-comp{
+        padding: 16px;
+        max-width: 150px;
+    }
+    .btn-txt{
+        font-size: 0.8rem;
+        margin: 0px;
+        color: aliceblue;
+        font-family: Arial Black;
+        
+    }
+}

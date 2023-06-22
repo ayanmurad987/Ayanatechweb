@@ -1,0 +1,263 @@
+/* .book-shape-div{
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    overflow-y: hidden;
+    background: rgb(255,0,241);
+    background: linear-gradient(234deg, rgba(229,2,227,1) 26%, rgba(90,64,168,1) 74%, rgba(208,247,255,1) 100%);
+    
+} */
+.book-shape-2-div{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+   
+      /* border-radius: 60% 40% 40% 20% / 70% 50% 30% 25%;
+       */
+      
+     /* flex-wrap: ; */
+}
+
+
+
+                    /* ===================> BOOK SHAPES <=================== */
+
+
+
+.book-shape-2{
+    padding: 10px;
+    height: 330px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-around;
+    /* justify-content: center; */
+    /* margin: 12px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 40px 80px, rgba(255, 255, 255, 0.15) 0px 0px 0px 0.5px inset;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    border-radius: 0px 30px 30px 30px;
+    background-color:  #b9b9e499;
+    transform: skewY(0deg) translateY(0px);
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+                
+
+
+
+
+.book-shape-2-3rd{
+    padding: 10px;
+    height: 330px;
+    width: 240px;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin: 12px; */
+    flex-direction: column;
+    display: flex;
+    justify-content:space-around;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 40px 80px, rgba(255, 255, 255, 0.15) 0px 0px 0px 0.5px inset;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    border-radius: 30px 0px 30px 30px;
+    background-color:  #b9b9e499;
+    transform: skewY(0deg) translateY(0px);
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.book-shape-2-pro{
+  height: 400px;
+    width: 260px;
+    padding: 10px;
+    /* height: 240px; */
+    align-items: center;
+    /* justify-content: center; */
+    /* margin: 12px; */
+    justify-content:space-around;
+
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 40px 80px, rgba(255, 255, 255, 0.15) 0px 0px 0px 0.5px inset;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    border-radius: 30px 30px 30px 0px;
+    background-color:  #b9b9e499;
+    transform: skewY(0deg) translateY(0px);
+    transition-duration: 0.8s;
+   
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+
+                  /*========================>BACK SHAPES<==================  */
+
+
+.book-shape-2-back{
+    padding: 10px;
+    height: 330px;
+    width: 240px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 40px 80px, rgba(255, 255, 255, 0.15) 0px 0px 0px 0.5px inset;
+    border-radius: 0px 30px 30px 30px;
+    transform: skewY(0deg) rotateY(-0deg) rotate(-10deg);
+    transform-origin: left top;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    transition-property: all;
+    background: linear-gradient(rgb(47, 184, 255) 0%, rgb(158, 236, 217) 100%)
+}
+
+.book-shape-2-back-3rd{
+    padding: 10px;
+    height: 330px;
+    width: 240px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 40px 80px, rgba(255, 255, 255, 0.15) 0px 0px 0px 0.5px inset;
+    border-radius: 30px 0px 30px 30px;
+    transform: skewY(5deg) rotateY(-10deg) rotate(8deg);
+    transform-origin: right top;
+
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    transition-property: all;
+    background: linear-gradient(rgb(47, 184, 255) 0%, rgb(158, 236, 217) 100%)
+}
+
+
+.book-shape-2-back-pro{
+    padding: 10px;
+    height: 400px;
+    width: 260px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 40px 80px, rgba(255, 255, 255, 0.15) 0px 0px 0px 0.5px inset;
+    border-radius: 30px 30px 30px 0px;
+    transform: skewY(8deg) rotateY(15deg);
+    transform-origin: bottom left;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    transition-property: all;
+    background: linear-gradient(rgb(47, 184, 255) 0%, rgb(158, 236, 217) 100%)
+}
+
+  
+           /* ====================> Parent div <====================*/
+
+ 
+      
+.Book-card-2-parent-div{
+    display: flex;
+    margin: 50px; 
+}
+
+ 
+
+          /*=================>   HOVERING SHAPES   <================= */
+
+
+
+.Book-card-2-parent-div:hover .book-shape-2-back {
+    transform: skewY(-6deg) rotateY(-30deg)rotate(-10deg);
+    transform-origin: left top;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    transition-property: all;
+    /* position: absolute; */
+}
+.Book-card-2-parent-div:hover .book-shape-2-back-pro {
+    transform: skewY(14deg) rotateY(30deg) translate3d(-2px, 10px, 5px) ;
+    transform-origin: left bottom;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    transition-property: all;
+    /* position: absolute; */
+}
+.Book-card-2-parent-div:hover .book-shape-2-back-3rd {
+
+    transform: skewY(8deg) rotateY(-30deg) rotate(7deg);
+    transform-origin: right top;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    transition-property: all;
+    /* position: absolute; */
+}
+
+
+             /*===============>  HOVERING Main divs  <================== */
+
+
+.Book-card-2-parent-div:hover .book-shape-2{
+    transform: skewY(0deg) translateY(5px);
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* position: absolute; */
+}
+.Book-card-2-parent-div:hover .book-shape-2-3rd{
+    transform: skewY(0deg) translateY(5px);
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* position: absolute; */
+}
+.Book-card-2-parent-div:hover .book-shape-2-pro{
+    transform: skewY(-6deg) translateY(-6px);
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* position: absolute; */
+}
+
+
+
+
+.book-shape-2-Name{
+    color: black;
+    margin: 8px;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.3rem;
+    
+}
+.book-shape-2-description{
+    font-size: 0.8rem;
+    font-family:Arial, Black;
+
+    opacity: 0.7;
+    margin: 0%;
+
+    /* margin-left: 10px; */
+}
+
+
+.book-shape-2-feature-icon{
+    height: 17px;
+    width: 17px;
+    background-color: rgb(154, 53, 141);
+    padding: 4px;
+    border-radius: 10px;
+
+}
+.book-shape-2-features-list{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin: 5px;
+}
+.book-shape-2-features-text{
+    font-size: 13px;
+    color: white ;
+    opacity: 0.7;
+}
+
+
+
+

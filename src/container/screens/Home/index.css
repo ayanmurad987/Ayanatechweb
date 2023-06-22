@@ -1,0 +1,286 @@
+.body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.Content {
+    padding: 75px 0;
+    width: 40%;
+    z-index: 1;
+}
+
+.p1 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+
+}
+
+.p3 {
+    font-size: 40px;
+    margin: 0;
+    color: #FFF;
+    font-weight: 700; 
+    
+}
+
+.p4 {
+    font-size: 16px;
+    color: white;
+    /* padding: 0px 100px 0px 0px; */
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card-div {
+    margin-top: -40px;
+}
+
+.cards2div {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-with-shadow {
+    text-shadow: 2px 2px 4px #1b1b1b;
+  }
+
+.btn {
+    display: flex;
+    width: 250px;
+    height: 65px;
+    border: none;
+    align-items: center;
+    border-radius: 14px;
+    background-image: radial-gradient(218.51% 281.09% at 100% 100%, rgba(100, 46, 42, 0.6) 0%, rgba(150, 90, 247, 0.6) 45.83%, rgba(67, 52, 92, 0.6) 100%);
+    backdrop-filter: blur(2px);
+    margin-top: 30px;
+}
+
+.btnText {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+}
+
+.bg1 {
+    height: 320px;
+    width: 525px;
+    top: -20px;
+    transform: rotateY(29deg) rotateX(-24deg) translate3d(50px, 60px, 0);
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    transition-property: all;
+    background-image: radial-gradient(218.51% 281.09% at 100% 100%, rgba(253, 63, 51, 0.6) 0%, rgba(76, 0, 200, 0.6) 45.83%, rgba(76, 0, 200, 0.6) 100%);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgb(27, 26, 26);
+}
+
+.bg2,
+.TOP-bg2 {
+    height: 185px;
+    width: 270px;
+    position: relative;
+    bottom: 143px;
+    right: 2px;
+    transform: rotateY(29deg) rotateX(-24deg) translate3d(70px, 40px, 0);
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    transition-property: all;
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    background-image: radial-gradient(218.51% 281.09% at 50% 50%, rgba(253, 63, 51, 0.6) 0%, rgba(76, 0, 200, 0.6) 45.83%, rgba(76, 0, 200, 0.6) 100%);
+}
+
+.TOP-bg2 {
+    background-image: radial-gradient(218.51% 281.09% at 100% 100%, rgba(253, 63, 51, 0.6) 0%, rgba(76, 0, 200, 0.6) 45.83%, rgba(76, 0, 200, 0.6) 100%);
+}
+
+.bg3,
+.TOP-bg3 {
+    height: 175px;
+    width: 250px;
+    position: relative;
+    bottom: 110px;
+    left: 50px;
+    transform: rotateY(27deg) rotateX(-27deg);
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgb(27, 26, 26);
+    transition-property: all;
+    background-image: radial-gradient(218.51% 281.09% at 100% 100%, rgba(253, 63, 51, 0.6) 0%, rgba(76, 0, 200, 0.6) 45.83%, rgba(76, 0, 200, 0.6) 100%);
+
+
+}
+
+.TOP-bg2,
+.TOP-bg3 {
+    top: 93px;
+    right: 30px;
+    height: 120px;
+    width: 180px;
+}
+
+.TOP-bg3 {
+    top: 130px;
+    left: 30px;
+    background-image: radial-gradient(218.51% 281.09% at 100% 100%, rgba(193, 179, 178, 0.6) 0%, rgba(201, 80, 203, 0.6) 45.83%, rgba(148, 102, 222, 0.6) 100%);
+}
+
+.card {
+    height: 200px;
+    width: 350px;
+    border-width: 2px solid black;
+    background: rgb(141, 139, 163);
+    background: linear-gradient(125deg, rgba(141, 139, 163, 1) 0%, rgba(121, 9, 117, 1) 35%, rgba(42, 190, 221, 1) 100%);
+    animation: animate 2s ease alternate;
+    margin: auto;
+
+}
+
+.RightArrow {
+    height: 90%;
+    width: 20%;
+}
+
+.card-hover-controll {
+    position: relative;
+    overflow: hidden;
+    padding: 0 55px;
+    transition: transform 0.3s;
+}
+
+.ooo {
+    color: red !important;
+}
+
+.card-hover-controll.hovered {
+    transform: scale(1.03);
+}
+
+@keyframes animate {
+    to {
+        transform: translateY(300px)
+    }
+}
+
+@media (min-width: 700px) {
+    .card-hover-controll:hover .bg1 {
+        transform: translate(10px, 10px);
+    }
+
+    .card-hover-controll:hover .bg2 {
+        transform: translate(-50px, 70px);
+
+    }
+
+    .card-hover-controll:hover .bg3 {
+        transform: translate(10px, 10px);
+    }
+
+    .card-hover-controll:hover .TOP-bg2 {
+        transform: translate(10px, -13px);
+
+    }
+
+    .card-hover-controll:hover .TOP-bg3 {
+        transform: translate(10px, -50px);
+    }
+   
+}
+
+@media (max-width:700px) {
+    .bg1 {
+        transform: translate(75px, 50px);
+        width: 80%;
+        height: 240px;
+        position: relative;
+        align-self: center;
+    }
+
+    .bg2 {
+        transform: translate(42px, 63px);
+        height: 150px;
+        width: 50%;
+
+    }
+
+    .bg3 {
+        transform: translate(0px, 30px);
+        height: 145px;
+        width: 47%;
+    }
+
+    .TOP-bg2 {
+        transform: translate(65px,7px);
+
+    }
+
+    .TOP-bg3 {
+        transform: translate(15px, -30px);
+    }
+
+    .Content {
+        margin: 0;
+        padding: 79px 0px 0px 0px
+    }
+    
+
+}
+
+@media (max-width: 1300px) {
+    .Content {
+        width: 100%;
+        
+    }
+}
+
+@media (max-width:490px) {
+    .p1 {
+        font-size: 20px;
+    }
+
+    .p3 {
+        font-size: 25px;
+    }
+    .p4{
+        padding: 0;
+    }
+    .btn {
+        height: 55px;
+        width: 200px;
+    }
+
+    .btnText {
+        font-size: 20px;
+    }
+    .RightArrow{
+        height: 100%;
+        width: 24%;
+    }
+    .card-hover-controll{
+        margin-right: 80px;
+    }
+    .TOP-bg2, .TOP-bg3 {
+        right: 30px;
+        height: 107px;
+        width: 165px;
+    }
+}
+
+/* @media (max-width: 490px){
+    .p1 {
+        font-size: ;
+    }
+} */

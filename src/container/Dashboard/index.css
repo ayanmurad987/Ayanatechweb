@@ -1,0 +1,161 @@
+.mainConttainer1 {
+    position: relative;
+    min-height: 100vh;
+}
+
+.mainConttainer2 {
+    position: relative;
+    background-color: #FEF4F7;
+}
+
+.mainConttainer3 {
+    position: relative;
+    /* background: linear-gradient(180deg, #DFB9ED 0%, #DFB9ED 51%, #fff 100%, rgb(255, 255, 255) 100%); */
+
+}
+
+.mainConttainer4 {
+    position: relative;
+    min-height: 55vh;
+}
+
+.mainConttainer5 {
+    position: relative;
+    min-height: 70vh;
+    background: linear-gradient(180deg, #5A3C76 0%, #5A3C76 15%, #FFA039 30%, );
+
+}
+
+.mainConttainer6 {
+    position: relative;
+    min-height: 70vh;
+
+    background: linear-gradient(180deg, #FFBE54 0%, #FFBE54 15%, #e494db 30%, #e1c9f7 100%);
+
+}
+
+.mainConttainer7 {
+    /* background: rgb(105, 63, 63); */
+    position: relative;
+    min-height: 70vh;
+
+    /* background: linear-gradient(180deg, #E1C8F7 0%, rgb(255, 239, 253) 51%, #DFB9ED 100%, rgba(213, 198, 198, 1) 100%); */
+}
+
+.bgImg1 {
+    height: auto;
+    width: 100vw;
+    background-image: url('../../assets/images/home_wave.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.bgImg2 {
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-color: #1F1F47;
+    background: linear-gradient(180deg, #1F1F47 0%, rgba(251, 66, 228, 1) 51%, rgba(255, 245, 247, 1) 100%, rgba(213, 198, 198, 1) 100%);
+    position: absolute;
+    top: 10;
+    left: 0;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.bgImg3 {
+    height: 80vh;
+    width: 100vw;
+    background-image: url('../../assets/images/cover_3.svg');
+    background-repeat: no-repeat;
+    /* background-color: #DFB9ED; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+.bgImg4 {
+    height: auto;
+    width: 100vw;
+    /* background-image: url('../../assets/images/backgroundShapes.svg');
+    background-repeat: no-repeat; */
+    position: absolute;
+    top: 0;
+
+    left: 0;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.bgImg8 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../assets/images/FooterBg.svg');
+    background-repeat: no-repeat;
+    /* background-color: #DFB9ED; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: -1;
+
+}
+
+.bgImg5 {
+
+    /* height: 80vh; */
+    width: 100vw;
+    /* background-image: url("../../assets/images/yellowgradient.svg"); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* bottom: 120px */
+}
+
+._AboutUS_ {
+    min-height: 100vh;
+    width: 100vw;
+}
+
+._OurServices_ {
+    min-height: 100vh;
+    width: 100vw;
+}
+
+
+@media (max-width: 1224px) {
+    .bgImg8 {
+        height: 100%;
+    }
+
+    .bgImg4 {
+        height: 120vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .mainConttainer1 {
+        position: relative;
+        background-color: #1F1F47;
+        background-image: linear-gradient(to bottom, #1F1F47, #1F1F47 50%, #F2F6FF);
+    }
+    .bgImg3{
+        height: 47vh;
+    }
+}

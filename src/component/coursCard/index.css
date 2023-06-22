@@ -1,0 +1,200 @@
+
+.Courses_card_main{ 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 348px;
+    width: 234px;
+    display: flex ;
+    border-radius: 20px;
+    bottom: 10px;
+}
+
+.CoursesCard{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    position: relative;
+    /* box-sizing: inherit; */
+    border-radius: 30px;
+
+    cursor: pointer;
+    transition-property: all;
+   
+}
+.CoursesCard:hover{
+    border-radius: 17px;
+    height:100%;
+    width: 100%;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    transition-property: all;
+}
+.Courses_card_img{
+    height:80%;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 10px;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.11, 0.84, 0.27, 1.1);
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.CoursesCard:hover .icon-div{
+    height: 35px;
+    width: 35px;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.Star-img{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color:rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    transition-property: all;
+}
+.Star-img:hover{
+    height: 30px;
+    width: 30px;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.Courses-card-Name{
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: white;
+    transition: font-size 0.3s ease, color 0.3s ease;
+    margin: 4px;
+}
+.Courses-card-discription{
+    color: white;
+    font-size: 13px;
+    opacity: 0.6;
+    align-self: center;
+    margin: 0px;
+    text-align: center;
+    transition: font-size 0.3s ease;
+    max-width:200px;
+    /* margin-left: 30px; */
+}
+.icon-div{
+    height:27px;
+    width:27px;
+    margin-top:4px;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    transition-property: all;
+}
+.CoursesCardImg-div{
+
+    align-items:flex-start;
+    justify-content:space-between;
+    display:flex;
+    position: relative;
+    top: 10px;
+    width: 90%;
+}
+#icon_div{
+    height:35px;
+    width:35px
+}
+
+.Course_Card_Icon{
+    height:80px;
+    bottom: 14px;
+    position: relative;
+}
+@media (max-width:700px){
+    .CoursesCard{
+        border-radius: 15px;
+    }
+.Courses_card_main{ 
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 140px;
+    display: flex;
+    left: 0;
+    border-radius: 10px;
+}
+.CoursesCardImg-div{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.Courses_card_img{
+    margin-left: 35px;
+    width: 43%;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.11, 0.84, 0.27, 1.1);
+    transition-delay: 0s;
+    transition-property: all;
+}
+.icon-div{
+    height:20px;
+    width:20px;
+    margin-bottom:10px
+}
+#icon_div{
+    height:20px;
+    width:20px
+}
+.Courses-card-Name{
+    font-size: 0.5rem;
+    margin: 0;
+    font-weight: 800;
+    color: white;
+}
+.Courses-card-discription{
+    color: white;
+    font-size: 0.48rem;
+    opacity: 0.6;
+    align-self: center;
+    margin: 0px;
+    max-width:70%;
+}
+
+.CoursesCard:hover .icon-div{
+    height: 25px;
+    width: 25px;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    transition-property: all;
+}
+.Star-img:hover{
+    height: 25px;
+    width: 25px;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+    transition-property: all;
+}
+.Course_Card_Icon{
+    position: relative;
+    right: 5px;
+    top:5px;
+    height: 50px;
+}
+
+}

@@ -1,0 +1,81 @@
+.OurServices {
+    /* min-height: 100vh;
+    width: 100vw; */
+    /* background: rgb(255,255,255); */
+    /* background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(251,66,228,0.5550595238095238) 13%, rgba(255,245,247,1) 100%, rgba(213,198,198,1) 100%); */
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+
+}
+
+.BackGround-line {
+    height: 100px;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    background-image: url('../../../assets/images/tuitorialsBackground.svg');
+}
+
+.BackGround-line-2 {
+    height: 73px;
+    background-repeat: no-repeat;
+    margin: 0;
+    position: relative;
+    bottom: 40px;
+    width: 100%;
+
+    background-image: url('../../../assets/images/backgroundLine.svg');
+}
+
+.multipleLines {
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0;
+    position: relative;
+    bottom: 40px;
+    width: 100%;
+    background-image: url('../../../assets/images/multipleLines.svg');
+    background-position: center;
+}
+
+    .Certificated-div{
+     top:120px;
+     position:relative
+    }
+
+    
+    .our-services-Cirtificate-div{
+        min-height: 300px;
+        justify-content: space-between;
+        display: flex ;
+background-position: start;
+        align-items: center;
+    }
+    .OurServicesTxtDiv{
+        position: relative;
+        left: 200px;
+    }
+    .Book-Shape-Div{
+        justify-content: center;
+        align-items: center;
+
+    }
+   
+@media (max-width:700px){
+    .our-services-Cirtificate-div{
+        flex-direction:column;
+        min-height: 500px;
+    }
+    .Certificated-div{
+    left: 180px;
+    top:0px
+    }
+    .OurServicesTxtDiv{
+        position: relative;
+        left: 50px;
+        align-self: center;
+    }
+   
+}

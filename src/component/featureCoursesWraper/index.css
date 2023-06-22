@@ -1,0 +1,129 @@
+.FeatureCourseWraper{
+    display: flex;
+    height: 350px;
+    width: 500px;
+    backdrop-filter: blur(40px);
+    border-radius: 20px;
+    background-color: rgba(150, 150, 183, 0.3);
+    position: relative;
+    flex-direction: row-reverse;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 0.5px inset;
+    border-radius: 20px;
+    padding: 15px;
+    justify-content: space-between;
+    box-sizing: inherit;
+    align-content: space-between;
+    margin: 8px;
+}
+
+.number-list-container {
+  transition: background-color 0.5s ease, border-radius 0.5s ease;
+}
+
+.number-list-container:hover {
+  background-color: rgba(153, 153, 179, 0.3);
+  border-radius: 10px;
+}
+
+.number-list-container:hover .num-heading {
+  transition: color 0.5s ease;
+  color: rgb(247, 246, 246);
+}
+
+.number-list-container:hover .num-discription {
+  transition: color 0.5s ease;
+  color: rgb(247, 246, 246);
+}
+
+
+
+
+.num-heading{
+  color: rgb(65, 57, 57)  ;
+  font-size: 0.69rem;
+  transition: color 0.5s ease;
+
+}
+.num-discription{
+  color: gray;
+  font-size: 0.6rem;
+  transition: color 0.5s ease;
+
+
+}
+
+.numbers-btn{
+    padding: 10px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 10px;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0px;
+    color: white;
+
+}
+.data-div::-webkit-scrollbar {
+    width: 0px; /* Set the width of the scrollbar */
+  }
+.data-div{
+  max-height:90%;
+}
+
+.data-icon-image{
+  height:1.7rem;
+  width:1.7rem;
+  border-radius:0.3rem;
+}
+
+.number-list-container h6{
+  font-size: 0.69rem;
+
+}
+  @media (max-width:700px){
+    .FeatureCourseWraper{
+      display: flex;
+      height: 200px;
+      width: 90%;
+      backdrop-filter: blur(40px);
+      border-radius: 20px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 0.5px inset;
+      border-radius: 20px;
+      padding: 15px;
+      box-sizing: inherit;
+      margin: 6px 0px;
+  }
+  .number-list-container{
+    width: 100%;
+  }
+  .data-div{
+    max-height: 150px;
+    overflow-x: hidden;
+  }
+  .num-heading{
+    font-size: 0.63rem;
+  
+  }
+  .num-discription{
+    font-size: 0.55rem;
+    color: rgb(55, 50, 50);
+
+  }
+  .data-icon-image{
+    height:1.5rem;
+    width:1.5rem;
+    border-radius:0.3rem;
+  }
+  .number-list-container h6{
+    font-size: 0.4rem;
+  
+  }
+  }
+  @media (max-width:390px){
+    .FeatureCourseWraper{
+    width: 120%;
+   
+  }
+  }

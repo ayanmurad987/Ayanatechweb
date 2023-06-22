@@ -1,0 +1,73 @@
+.Ball-div-contents, .Ball-div-contents2, .Ball-div-contents3{
+    height: 60px;
+    width: 200px;
+    margin: 20px;
+    position: relative;
+    top: 180px;
+    left: 50px;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    border: 1px white solid;
+    align-items: center;
+    backdrop-filter: blur(30px);
+   cursor: pointer;
+ }
+ .Ball-div-contents, .Ball-div-contents3{
+    left: 300px;
+ }
+ .Ball-div-linier{
+    background: rgb(220,202,252);
+background: linear-gradient(0deg, rgba(220,202,252,1) 0%, rgba(227,91,206,1) 50%, rgba(255,255,255,1) 100%);
+ }
+
+ .Ball-div-contents:hover{
+   box-shadow: rgba(39, 77, 153, 0.2) 0px 30px 60px, rgba(0, 0, 0, 0.2) 0px 0px 0px 0.5px inset;
+
+ }
+.WhoIsBehind3{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+.WhoIsBehind3-ball-div{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    position: relative;
+    top: 120px;
+    left: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Ball-div{
+    height: 600px;
+    bottom: 100px;
+    position: relative;
+
+    width: 630px;
+    /* background-position:cen ; */
+    background-size: cover;
+   background-repeat: no-repeat;
+  background-position-x: center;
+    /* background-image: url("../../../assets/images/Ball_icon.svg"); */
+}
+.ball-div-text{
+    font-size: "0.6rem";
+    color: black;
+    font-weight: 600;
+    margin-top:10px
+}
+@media (max-width:700px){
+    .Ball-div{
+        width: 100%;
+        background-size: 500px 500px;
+    }
+    .Ball-div-contents, .Ball-div-contents3{
+        left: -80px;
+     }
+    
+
+}

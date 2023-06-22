@@ -1,0 +1,26 @@
+.ANI-text-Div {
+  height: 60;
+  display: 'flex';
+  align-items: 'center'
+}
+
+
+.text-animation span {
+  display: inline-block;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.text-animation span.animate {
+  opacity: 1;
+ 
+}
+
+@media (max-width: 450px) {
+  .text-animation {
+    font-size: 20px;
+  }
+  .ANI-text-Div{
+    height: 45px;
+  }
+}

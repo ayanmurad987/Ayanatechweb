@@ -1,0 +1,142 @@
+.navbar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.Navaling {
+    display: flex;
+    align-items: end;
+    margin-top: 20;
+}
+
+.LogoStyles2 {
+    height: 80px;
+    width: 88px;
+    position: relative;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.navbar__menu {
+    display: flex;
+}
+
+.Logo {
+    height: 90px;
+    width: 100px;
+    margin-left: 150px;
+}
+
+li {
+    list-style: none;
+    width: 140px;
+}
+
+.text {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #FFF;
+
+}
+
+.MainStyle {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.dropdown {
+    width: 48px;
+    border: none;
+}
+
+.bi-list {
+    color: #FFF !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: -106px;
+}
+
+.navbar-collapse {
+    width: 630px;
+    flex-basis: 500px;
+    flex-grow: 0;
+    text-align: end;
+}
+
+.nav-link {
+    color: #FFF !important;
+}
+
+
+.dropdown-item:hover {
+    color: purple;
+}
+
+.nav-link:hover {
+    color: purple;
+
+}
+
+/* 
+@media (min-width:1400px) {
+    .LogoStyles2 {
+        height: 100px;
+        width: 100px;
+        position: relative;
+        top: 30px;
+        left: 130px;
+    }
+} */
+
+@media (max-width:1000px) {
+    .navbar__menu {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        background-color: red;
+        height: 70px;
+    }
+
+    .Logo {
+        height: 90px;
+        width: 100px;
+        /* margin-left: 50px; */
+    }
+
+    /* .LogoStyles2 {
+        height: 100px;
+        width: 100px;
+        position: relative;
+        left: 0;
+        top: 0;
+    } */
+}
+
+/* @media (min-width:1000px) {
+    .LogoStyles2 {
+        height: 85px;
+        width: 90px;
+        position: relative;
+        left: 40px;
+    }
+} */
+@media(max-width:700px) {
+    .navbar {
+        width: 90vw;
+    }
+    .Navaling{
+        margin: 0;
+    }
+}

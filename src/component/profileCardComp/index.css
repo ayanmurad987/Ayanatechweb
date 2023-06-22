@@ -1,0 +1,34 @@
+.ProfileCardComp{
+    z-index: 3;
+    width:230px;
+    border-radius:20px;
+    backdrop-filter:blur(20px);
+    background-color: rgba(188, 187, 229, 0.3);
+        justify-content: center;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+    border-width: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 40px 80px, rgba(255, 255, 255, 0.15) 0px 0px 0px 0.5px inset;
+
+}
+.ProfileCardComp-Name{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    margin:0;
+    font-weight: bold;
+}
+.ProfileCardComp-Description{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+    font-weight: 600;
+}
+@media (max-width:500px){
+    .ProfileCardComp{
+       width: 80%;
+    
+    }
+}
